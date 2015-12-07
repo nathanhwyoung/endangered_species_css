@@ -1,8 +1,3 @@
-/*img {
-  width:90%;
-  height:90%;
-}*/
-
 .map_container {
   position:relative;
 }
@@ -16,65 +11,72 @@
 }
 
 .animals {
+  position: absolute;
+  border-radius: 50%/50%;
   width:5%;
+  border: 3px solid #ff00ff;
 }
 
 #jaguar {
-  position: absolute;
   top: 51%;
   left: 22%;
 }
 
 #ocelot {
-  position: absolute;
   top: 65%;
   left: 32%;
 }
 
 #gray_wolf {
-  position: absolute;
-  top: 42%;
-  left: 20%;
+  top: 41%;
+  left: 18%;
 }
 
 #monk_seal {
-  position: absolute;
   top: 47%;
   left: 10%;
 }
 
 #african_wild_dog {
-  position: absolute;
   top: 54%;
   left: 50%;
 }
 
 #manatee {
-  position: absolute;
   top: 50%;
   left: 60%;
 }
 
 #argali {
-  position: absolute;
   top: 37%;
   left: 62%;
 }
 
 #gazelle {
-  position: absolute;
   top: 34%;
   left: 54%;
 }
 
 #whale_shark {
-  position: absolute;
   top: 62%;
   left: 40%;
 }
 
 #asiatic_lion {
-  position: absolute;
   top: 41%;
   left: 68%;
+}
+
+.header {
+  font-style:italic;
+  text-align:center;
+  font-size:200%;
+}
+
+.animals:hover {
+
+}
+
+p {
+  display: none;
 }
