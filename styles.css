@@ -16,8 +16,7 @@
 }
 
 .animals {
-  width:50px;
-  height:50px;
+  width:5%;
 }
 
 #jaguar {
@@ -36,4 +35,22 @@
   position: absolute;
   top: 42%;
   left: 20%;
+}
+
+#monk_seal {
+  position: absolute;
+  top: 47%;
+  left: 10%;
+}
+
+#african_wild_dog {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+}
+
+#manatee {
+  position: absolute;
+  top: 50%;
+  left: 60%;
 }
