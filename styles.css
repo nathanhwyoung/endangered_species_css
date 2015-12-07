@@ -54,3 +54,27 @@
   top: 50%;
   left: 60%;
 }
+
+#argali {
+  position: absolute;
+  top: 37%;
+  left: 62%;
+}
+
+#gazelle {
+  position: absolute;
+  top: 34%;
+  left: 54%;
+}
+
+#whale_shark {
+  position: absolute;
+  top: 62%;
+  left: 40%;
+}
+
+#asiatic_lion {
+  position: absolute;
+  top: 41%;
+  left: 68%;
+}
