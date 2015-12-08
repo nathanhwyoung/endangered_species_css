@@ -6,63 +6,66 @@
   width: 100%;
 }
 
-.map {
+/*.map {
   position:fixed;
+}*/
+
+.animals_hover {
+  position: absolute;
 }
 
 .animals {
-  position: absolute;
   border-radius: 50%/50%;
-  width:5%;
+  width:12%;
   border: 3px solid #ff00ff;
 }
 
-#jaguar {
-  top: 51%;
+#jaguar_position {
+  top: 21%;
   left: 22%;
 }
 
-#ocelot {
+#ocelot_position {
   top: 65%;
   left: 32%;
 }
 
-#gray_wolf {
+#gray_wolf_position {
   top: 41%;
   left: 18%;
 }
 
-#monk_seal {
+#monk_seal_position {
   top: 47%;
   left: 10%;
 }
 
-#african_wild_dog {
+#african_wild_dog_position {
   top: 54%;
   left: 50%;
 }
 
-#manatee {
+#manatee_position {
   top: 50%;
   left: 60%;
 }
 
-#argali {
+#argali_position {
   top: 37%;
   left: 62%;
 }
 
-#gazelle {
+#gazelle_position {
   top: 34%;
   left: 54%;
 }
 
-#whale_shark {
+#whale_shark_position {
   top: 62%;
   left: 40%;
 }
 
-#asiatic_lion {
+#asiatic_lion_position {
   top: 41%;
   left: 68%;
 }
@@ -73,10 +76,10 @@
   font-size:200%;
 }
 
-.animals:hover {
-
+p {
+  visibility:hidden;
 }
 
-p {
-  display: none;
+.animals_hover:hover p {
+  visibility:visible;
 }
