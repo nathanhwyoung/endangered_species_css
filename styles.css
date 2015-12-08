@@ -6,10 +6,6 @@
   width: 100%;
 }
 
-/*.map {
-  position:fixed;
-}*/
-
 .animals_hover {
   position: absolute;
 }
@@ -17,11 +13,12 @@
 .animals {
   border-radius: 50%/50%;
   width:12%;
+  min-width:60px;
   border: 3px solid #ff00ff;
 }
 
 #jaguar_position {
-  top: 21%;
+  top: 50%;
   left: 22%;
 }
 
@@ -31,8 +28,8 @@
 }
 
 #gray_wolf_position {
-  top: 41%;
-  left: 18%;
+  top: 42%;
+  left: 19%;
 }
 
 #monk_seal_position {
