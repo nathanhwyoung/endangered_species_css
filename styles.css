@@ -8,6 +8,8 @@
 
 .animals_hover {
   position: absolute;
+  width:66px;
+  height:66px;
 }
 
 .animals {
