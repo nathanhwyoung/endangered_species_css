@@ -77,7 +77,8 @@
 
 p {
   visibility:hidden;
-}
+  font-size: 1.2rem;
+text-shadow: 2px 2px 4px white;}
 
 .animals_hover:hover p {
   visibility:visible;
